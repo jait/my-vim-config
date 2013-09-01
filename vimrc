@@ -11,3 +11,7 @@ set pastetoggle=<F5>
 
 " Turn accidental alt-spaces to spaces
 imap <M-Space> <Space>
+
+" netrw sets cursorline
+"let g:netrw_cursor=0
+set ruler

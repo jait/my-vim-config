@@ -15,3 +15,7 @@ imap <M-Space> <Space>
 " netrw sets cursorline
 "let g:netrw_cursor=0
 set ruler
+
+if filereadable($HOME . "/.vimrc.local")
+	so $HOME/.vimrc.local
+endif
